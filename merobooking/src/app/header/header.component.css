@@ -1,0 +1,62 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background: #FFFFFF;
+    /* overflow: hidden; */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a.active {
+    float: left;
+    text-align: center;
+    padding: 14px 71px;
+    text-decoration: none;
+    font-size: 17px;
+    left: 6.81%;
+    right: 71.94%;
+    top: 23.33%;
+    bottom: 23.33%;;
+  }
+  
+  /* Add a color to the active/current link */
+   .topnav button {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 24px;
+    
+    position: absolute;
+    left: 85%;
+    right: 6.74%;
+    top: 23.33%;
+    bottom: 24.44%;
+    
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 58px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+     /*float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+    border: 1px solid #000000 */
+
+  } 
+  /* .topnav button:hover{
+   border: none;
+  }
+  .topnav button:active{
+    border: none;
+   } */

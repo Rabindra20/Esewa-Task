@@ -1,0 +1,17 @@
+.footer {
+    background: #ffffff;
+    /* overflow: hidden; */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    text-align: center;
+    /* height: 53px; */
+    padding: 24px;
+    color: #8C8C8C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
