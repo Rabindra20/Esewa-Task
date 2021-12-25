@@ -69,16 +69,55 @@
 
     <div class="form-container">
       <div class="form-label">
+        Message
+      </div>
+      <div class="form-input">
+        <input type="area" name="Message" value="" placeholder="" />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
         Date
       </div>
       <div class="form-input">
-        <input type="date" name="name" value="" placeholder="" />
+         <input type="date" name="name" value="" placeholder="" />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
+        Timeslots
+      </div>
+      <div class="form-input">
+        <select id="Branch-of-Visit" name="Branch of Visit">
+          <option value="9:00am">9:00am</option>
+          <option value="9:30am">9:30am</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
+        Branch of Visit
+      </div>
+      <div class="form-input">
+        
+        <select id="Branch-of-Visit" name="Branch of Visit">
+          <option value="">ddd</option>
+          <option value="">ddda</option>
+        </select>
       </div>
     </div>
 
     <div class="button">
       <button>Book Appointment</button>
+    <!-- </div>
+
+    <div class="button-cancel"> -->
+      <button onclick="alert('Do you want to Cancel')">Cancel</button> 
     </div>
   </div>
 </div>
+
 <app-footer></app-footer>

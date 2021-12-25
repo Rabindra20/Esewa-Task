@@ -94,3 +94,10 @@
     font-weight: 700;
     color: #ffffff;
 }
+.bookappointment .form .form-container .form-input select {
+    width: calc(100% - 30px);
+    background-color: #FAFAFA;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    padding: 15px;
+}
