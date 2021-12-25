@@ -1,22 +1,115 @@
 
-.container{
+.list{
+    width: 615px;
+    border-radius: 4px;
+    padding-top: 130px;
+    margin: 0px auto;
+}
+
+.list .header {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 13px 24px;
-    position: absolute;
+}
 
-bottom: 0%;
-height: 168px;
-width: 615px;
-left: 25%;
-top: 193px;
-border-radius: 4px;
+.list .header .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 5px;
+}
 
+.list .header .button {
+    margin-left: auto;
+}
 
-background: #FFFFFF;
-border: 1px solid #D3D3D3;
-box-sizing: border-box;
-box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
-border-radius: 4px;
+.list .header .button button {
+    background-color: #E2641D;
+    border: none;
+    border-radius: 58px;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+.list .list {
+    padding-top: 12px;
+    padding-bottom: 24px
+}
+
+.list .list .single {
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 16px 24px;
+    margin-top: 12px;
+}
+
+.list .list .single .title  {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.list .list .single .description {
+    padding-top: 8px;
+    display: flex;
+}
+
+.list .list .single .description .name {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515263;
+}
+
+.list .list .single .description .address {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515263;
+    padding-left: 12px;
+}
+
+.list .list .single .schedule {
+    display: inline-flex;
+    padding-top: 8px;
+    background-color: #F3F3F3;
+    padding: 4px 8px;
+    margin-top: 8px;
+}
+
+.list .list .single .schedule .day {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515263;
+}
+
+.list .list .single .schedule .time {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515263;
+    padding-left: 12px;
+}
+
+.list .list .single .action {
+    display: flex;
+    padding-top: 16px;
+}
+
+.list .list .single .action .cancel button {
+    padding: 14px 24px;
+    border: 1px solid #515263;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #515263;
+}
+
+.list .list .single .action .reschedule button {
+    padding: 14px 24px;
+    border: none;
+    background-color: #1E4FCE;
+    border-radius: 25px;
+    color: #ffffff;
+    margin-left: 20px;
 }

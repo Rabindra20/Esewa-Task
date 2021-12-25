@@ -20,7 +20,7 @@ https://www.figma.com/file/ucab4KgRr2EfSv7rUKtwbI/Mero-Booking?node-id=21%3A141<
 Steps:<br/>
 Create angular project<br/>
 ```
-ng new merobooking<br/>
+ng new merobooking
 ```
 Run app<br/>
 ```

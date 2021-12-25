@@ -1,5 +1,84 @@
 <app-header></app-header>
-<div class="container">
- jjjj   
+<div class="bookappointment"> 
+  <div class="header">
+      <div class="title">
+        Book New Appointment
+      </div>
+      <div class="button">
+        <a routerLink="/list">
+          <button>Go Back</button>
+        </a>
+      </div>
+  </div>
+  <div class="form">
+    <div class="form-container">
+      <div class="form-label">
+        Name
+      </div>
+      <div class="form-input">
+        <input type="text" name="name" value="Phil Foden" placeholder="Name" />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
+        Gender
+      </div>
+      <div class="form-radio">
+        <div class="form-radio-container">
+          <input type="radio" name="gender" value="male" />
+          <label>Male</label>
+        </div>
+        <div class="form-radio-container">
+          <input type="radio" name="gender" value="female" />
+          <label>Female</label>
+        </div>
+        <div class="form-radio-container">
+          <input type="radio" name="gender" value="others" />
+          <label>Others</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
+        Email
+      </div>
+      <div class="form-input">
+        <input type="email" name="email" value="phil.foden@email.com" placeholder="Email" />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
+        Phone Number
+      </div>
+      <div class="form-input">
+        <input type="text" name="phone_number" value="9841000000" placeholder="Phone Number" />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
+        Address
+      </div>
+      <div class="form-input">
+        <input type="text" name="address" value="" placeholder="" />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-label">
+        Date
+      </div>
+      <div class="form-input">
+        <input type="date" name="name" value="" placeholder="" />
+      </div>
+    </div>
+
+    <div class="button">
+      <button>Book Appointment</button>
+    </div>
+  </div>
 </div>
 <app-footer></app-footer>
